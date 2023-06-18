@@ -1,3 +1,60 @@
+# Arquivos e diretórios a serem ignorados
+-1.14-windows.xml
+.VirtualBox/
+.aria2/
+.bash_history
+.config/
+.dotnet/
+.gitconfig
+.lesshst
+.nuget/
+.receitanet/
+.rfb/
+.vscode/
+3D Objects/
+Algoritmos-e-Programacao/
+AppData/
+Application Data/
+Contacts/
+Desktop/
+Downloads/
+Favorites/
+Links/
+MicrosoftEdgeBackups/
+Music/
+NTUSER.DAT
+NTUSER.DAT{f4960642-9f0f-11ed-b191-b2addb0d285f}.TM.blf
+NTUSER.DAT{f4960642-9f0f-11ed-b191-b2addb0d285f}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{f4960642-9f0f-11ed-b191-b2addb0d285f}.TMContainer00000000000000000002.regtrans-ms
+.849C9593-D756-4E56-8D6E-42412F2A707B
+Cofre Pessoal.lnk
+Documentos/
+Imagens/
+desktop.ini
+"Apresentação1 powerpoint.pptx"
+CapCut.lnk
+Desafio2/
+Emilly/
+GitHub Desktop.lnk
+Luan/
+Michelle/
+Postman.lnk
+Twitch Studio.lnk
+VFUN.lnk
+api/
+desoap/
+express/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+VirtualBox VMs/
+desafio-soap/
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+source/
+
 # Logs
 logs
 *.log
