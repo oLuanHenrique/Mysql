@@ -4,10 +4,10 @@ require('dotenv').config();
 
 // Configuração do banco de dados
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'sua_senha',
-    database: 'sua_database',
+    host: '%henrique',
+    user: 'Luan', 
+    password: 'Dk@GN7H8Ge(e.i[k',
+    database: 'express',
 });
 
 // Criação da aplicação Express

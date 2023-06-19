@@ -2,17 +2,20 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-generator": "^4.2.0"
+    "express-generator": "^4.2.0",
+    "mysql2": "^3.3.5"
   },
   "devDependencies": {
     "eslint": "^8.43.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.22"
   },
   "lint": "eslint **/*.js --ignore-pattern node_modules/",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./bin/www",
     "test": "jest",
     "build": "webpack",
-    "lint": "eslint ."
+    "nodemon": "nodemon ./bin/www",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/"
   }
 }
