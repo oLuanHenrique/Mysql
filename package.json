@@ -3,19 +3,22 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-generator": "^4.2.0",
-    "mysql2": "^3.3.5"
+    "glob-parent": "^6.0.2",
+    "got": "^13.0.0",
+    "mysql2": "^3.3.5",
+    "semver": "^7.5.3"
   },
   "devDependencies": {
     "eslint": "^8.43.0",
     "eslint-config-google": "^0.14.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^1.14.9"
   },
   "lint": "eslint **/*.js --ignore-pattern node_modules/",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node routes/index.js",
     "test": "jest",
     "build": "webpack",
-    "nodemon": "nodemon ./bin/www",
+    "nodemon": "nodemon routes/index.js",
     "lint": "eslint **/*.js --ignore-pattern node_modules/"
   }
 }

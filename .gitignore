@@ -4,6 +4,7 @@
 .aria2/
 .bash_history
 .config/
+*.env
 .dotnet/
 .gitconfig
 .lesshst
